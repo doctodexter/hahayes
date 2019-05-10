@@ -1,0 +1,48 @@
+.paragraph{
+font-family: "Comic Sans MS", cursive, sans-serif;
+color:white;
+}
+.about{
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 30px;
+}
+ul{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin:0;
+	padding:0;
+}
+ul li{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	float:left;
+	list-style: none;
+	width: 800px;
+	height: 50px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+}
+ul li a {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+ul li a:hover {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color: green;
+}
+ul li ul li{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	display: none;
+}
+ul li:hover ul li{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	display: block;
+}
+.mute{
+	color:red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 30px;
+	text-align: inherit;
+}
